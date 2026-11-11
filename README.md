@@ -41,3 +41,7 @@ powershell -ExecutionPolicy Bypass -File setup\windows-einrichten.ps1
 Installiert Git, Node.js, Python, GitHub CLI und Obsidian, die CLIs playwright-cli, ctx7, firecrawl und notebooklm,
 und kopiert alle Skills nach `%USERPROFILE%\.claude\skills` (Vorhandenes bleibt unverändert).
 Für die BIM-Werkbank-Prüfung zusätzlich WSL mit Ubuntu und darin `sudo bash setup/wsl-werkzeuge.sh`.
+
+## Gemeinsames Gedächtnis
+
+Das Obsidian-Gedächtnis liegt im privaten Repo `claude-gedaechtnis`. `setup\gedaechtnis-einrichten.ps1` klont es, kopiert `gedaechtnis-sync.ps1` nach `%USERPROFILE%\.claude\hooks` und trägt zwei Hooks ein (SessionStart: holen, Stop: committen und im Hintergrund hochladen). Mit `-ProjektOrdner` wird das Projekt per `autoMemoryDirectory` in `.claude\settings.local.json` auf das geklonte Gedächtnis umgelenkt.

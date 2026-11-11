@@ -78,6 +78,7 @@ Write-Host @'
   danach neu starten und in Ubuntu:   sudo bash setup/wsl-werkzeuge.sh   (aus diesem Repo)
 - Projekt klonen:                     git clone https://github.com/aaronfriedrich10-png/architekturdigis.git
   Im Projekt danach einmal:           git config core.autocrlf false; git config core.eol lf; git rm -rq --cached .; git reset -q --hard
+- Gemeinsames Gedächtnis + Sync-Hooks:  powershell -ExecutionPolicy Bypass -File setup\gedaechtnis-einrichten.ps1 -ProjektOrdner <Pfad zu architekturdigis>
 - Plugins des claude.ai-Kontos gelten auf jedem PC automatisch, sobald Claude mit demselben Konto angemeldet ist.
 - Firecrawl, Context7 und NotebookLM verlangen beim ersten Aufruf eine eigene Anmeldung bzw. einen API-Schlüssel.
 '@
