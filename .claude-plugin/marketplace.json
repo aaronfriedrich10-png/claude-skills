@@ -38,6 +38,11 @@
       "name": "anthropic-skills-extra",
       "source": "./plugins/anthropic-skills-extra",
       "description": "Offizielle Anthropic-Skills: Frontend-Design, Webapp-Tests, MCP-Builder, Web-Artifacts, Themes, Canvas u. a."
+    },
+    {
+      "name": "rea-skills",
+      "source": "./plugins/rea-skills",
+      "description": "REA Reverse Engineering – braucht den REA-MCP-Server"
     }
   ]
 }

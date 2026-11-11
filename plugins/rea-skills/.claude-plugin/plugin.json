@@ -1,0 +1,5 @@
+{
+  "name": "rea-skills",
+  "description": "REA Reverse Engineering (Binaries, Electron, Firmware, Web) – braucht den REA-MCP-Server",
+  "version": "1.0.0"
+}
