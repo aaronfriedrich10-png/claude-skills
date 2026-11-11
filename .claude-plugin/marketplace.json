@@ -1,0 +1,38 @@
+{
+    "name":  "werkbank-skills",
+    "owner":  {
+                  "name":  "aaronfriedrich10-png"
+              },
+    "plugins":  [
+                    {
+                        "name":  "karpathy-guidelines",
+                        "source":  "./plugins/karpathy-guidelines",
+                        "description":  "Arbeitsregeln gegen typische LLM-Codingfehler (Andrej Karpathy, via multica-ai)"
+                    },
+                    {
+                        "name":  "marketing-skills",
+                        "source":  "./plugins/marketing-skills",
+                        "description":  "53 Marketing-Skills (Corey Haines): Copywriting, SEO, CRO, Pricing, Launch u. a."
+                    },
+                    {
+                        "name":  "obsidian-skills",
+                        "source":  "./plugins/obsidian-skills",
+                        "description":  "Obsidian-Skills (kepano): Markdown, Bases, CLI, JSON Canvas, Defuddle, Knap"
+                    },
+                    {
+                        "name":  "excalidraw-diagram",
+                        "source":  "./plugins/excalidraw-diagram",
+                        "description":  "Excalidraw-Diagramme als JSON erzeugen und rendern (Cole Medin)"
+                    },
+                    {
+                        "name":  "playwright-cli",
+                        "source":  "./plugins/playwright-cli",
+                        "description":  "Browser-Automatisierung und Tests mit der Playwright CLI (Microsoft)"
+                    },
+                    {
+                        "name":  "notebooklm",
+                        "source":  "./plugins/notebooklm",
+                        "description":  "Gemini Notebook / NotebookLM Ã¼ber die notebooklm-py CLI steuern"
+                    }
+                ]
+}

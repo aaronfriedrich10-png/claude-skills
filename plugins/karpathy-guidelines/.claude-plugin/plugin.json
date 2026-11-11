@@ -1,0 +1,5 @@
+{
+    "name":  "karpathy-guidelines",
+    "description":  "Arbeitsregeln gegen typische LLM-Codingfehler (Andrej Karpathy, via multica-ai)",
+    "version":  "1.0.0"
+}

@@ -1,0 +1,5 @@
+{
+    "name":  "playwright-cli",
+    "description":  "Browser-Automatisierung und Tests mit der Playwright CLI (Microsoft)",
+    "version":  "1.0.0"
+}
